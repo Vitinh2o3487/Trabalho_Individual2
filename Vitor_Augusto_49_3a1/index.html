@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Loja </div>
+
+        <div class="input">
+             <input placeholder="Qual é o sua renda mensal?" type="number" id='renda' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o valor do bem financiado?" type="number" id='valor' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a taxa de juros? (Ex: 17% --> 17)?"  type="number" id='taxa'required="required">
+        </div>
+
+         <div class="input">
+            <input  placeholder="(Qual o número de prestações?)"  type="number" id='prestacoes'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>  
